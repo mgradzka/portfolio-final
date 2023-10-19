@@ -1,6 +1,6 @@
 <template>
       <footer class="flex">
-        <span>&#169;2022 Martyna Grądzka</span>
+        <span>&#169;2023 Martyna Grądzka</span>
         <div class="flex">
           <a
             href="https://www.linkedin.com/in/martyna-gradzka/"
