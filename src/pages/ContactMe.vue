@@ -12,6 +12,7 @@
       <a href="https://www.linkedin.com/in/martyna-gradzka/" target="_blank"
         ><font-awesome-icon icon="fa-brands fa-linkedin"  class="fa-brands"
       /></a>
+      <a href="mailto:gradzkamartyna@gmail.com"><font-awesome-icon :icon="['fas', 'envelope']" class="fa-brands"/></a>
     </div>
     <form action="form.html" name="contact" netlify>
       <div class="container-form flex">

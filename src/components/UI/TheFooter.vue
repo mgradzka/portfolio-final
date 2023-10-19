@@ -14,6 +14,7 @@
             class="uppercase"
             >Github</a
           >
+           <a href="mailto:gradzkamartyna@gmail.com" class="uppercase">Mail</a>
         </div>
       </footer>
 </template>

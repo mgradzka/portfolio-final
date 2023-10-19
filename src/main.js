@@ -18,19 +18,10 @@ import CaseFour from "./pages/CaseFour.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {
-  faVuejs,
-  faHtml5,
-  faCss3Alt,
-  faNodeJs,
   faGithub,
-  faFigma,
-  faGitAlt,
-  faJs,
   faLinkedin,
-  faReact,
-  faBootstrap
 } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const router = createRouter({
@@ -57,18 +48,11 @@ const router = createRouter({
 });
 const app = createApp(App);
 library.add(
-  faVuejs,
-  faHtml5,
-  faCss3Alt,
-  faNodeJs,
+
   faGithub,
-  faFigma,
-  faGitAlt,
-  faJs,
   faLinkedin,
   faBars,
-  faReact,
-  faBootstrap
+  faEnvelope
 );
 
 app.use(router);
