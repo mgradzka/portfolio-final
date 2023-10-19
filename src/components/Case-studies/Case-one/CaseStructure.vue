@@ -5,26 +5,31 @@
     <img
       :src="`../../assets/${category[0].images.one}`"
       class="development"
+       loading='lazy'
       alt=""
     />
     <img
       :src="`../../assets/${category[0].images.two}`"
       class="development"
+       loading='lazy'
       alt=""
     />
     <img
       :src="`../../assets/${category[0].images.three}`"
       class="development"
+       loading='lazy'
       alt=""
     />
     <img
       :src="`../../assets/${category[0].images.four}`"
       class="development"
+       loading='lazy'
       alt=""
     />
     <img
       :src="`../../assets/${category[0].images.five}`"
       class="development"
+       loading='lazy'
       alt=""
     />
  

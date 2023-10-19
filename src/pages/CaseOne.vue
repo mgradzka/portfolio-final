@@ -42,6 +42,7 @@
       <img
         src="../assets/botanical-mockup1.png"
         class="cases--img"
+         loading='lazy'
         alt="case study Martyna Grądzka"
       />
     </template>

@@ -1,10 +1,7 @@
 <template>
   <main class="contact flex">
     <h1>Let's have a chat!</h1>
-    <!-- <div class="contact1">
-            <i class="fas fa-phone-alt"></i>
-            <p>+45 22 36 76 87</p>
-        </div> -->
+
     <div class="tools-container flex">
       <a href="https://github.com/mgradzka" target="_blank">
         <font-awesome-icon icon="fa-brands fa-github" class="fa-brands"
@@ -14,7 +11,7 @@
       /></a>
       <a href="mailto:gradzkamartyna@gmail.com"><font-awesome-icon :icon="['fas', 'envelope']" class="fa-brands"/></a>
     </div>
-    <form action="form.html" name="contact" netlify>
+    <form action="form.html" name="contactform" data-netlify="true">
       <div class="container-form flex">
         <h2>Contact me</h2>
 

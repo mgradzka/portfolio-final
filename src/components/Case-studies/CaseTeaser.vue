@@ -30,6 +30,7 @@
       <img
         :src="`@/../assets/${image}`"
         class="cases--img1"
+        loading='lazy'
         alt="case study Martyna Grądzka"
       />
     </div>
