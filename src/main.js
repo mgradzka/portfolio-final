@@ -11,6 +11,8 @@ import PinkCircle from "./components/UI/PinkCircle.vue";
 import BlueCircle from "./components/UI/BlueCircle.vue";
 import BaseContainer from "./components/UI/BaseContainer.vue";
 import BaseHeading from "./components/UI/BaseHeading.vue";
+import NotFound from "./components/UI/NotFound.vue";
+
 import CaseThree from "./pages/CaseThree.vue";
 import CaseTwo from "./pages/CaseTwo.vue";
 import CaseOne from "./pages/CaseOne.vue";
@@ -36,7 +38,8 @@ const router = createRouter({
     { name: "case2", path: "/case/case2", component: CaseTwo },
     { name: "case3", path: "/case/case3", component: CaseThree },
     { name: "case4", path: "/case/case4", component: CaseFour },
-    { path: '/:notfound(.*)', redirect: '/home' }
+    { path: '/:notfound(.*)', redirect: '/home' },
+    { path: '/:pathMatch(.*)', component: NotFound }
   ],
   linkActiveClass: "active",
   scrollBehavior(_, _2, savedPosition) {
@@ -62,5 +65,6 @@ app.component("base-button", BaseButton);
 app.component("pink-circle", PinkCircle);
 app.component("blue-circle", BlueCircle);
 app.component("base-container", BaseContainer);
+app.component("not-found", NotFound);
 app.component("base-heading", BaseHeading);
 app.mount("#app");
