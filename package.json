@@ -1,30 +1,25 @@
 {
   "name": "portfolio-martyna",
-  "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/vue-fontawesome": "^3.0.2",
-    "@vueuse/head": "^1.0.19",
-    "core-js": "^3.8.3",
-    "devicon": "^2.15.1",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.13"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "images": "node scripts/optimize-images.mjs"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "sharp": "^0.35.5"
+  },
+  "dependencies": {
+    "@iconify-json/ph": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.101",
+    "@nuxt/fonts": "^1.2.0",
+    "@nuxt/icon": "^2.6.1",
+    "nuxt": "^4.6.3",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
   }
 }
