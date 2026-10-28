@@ -2,6 +2,8 @@
 import { caseStudies } from "~/data/cases";
 import { competencies, tools } from "~/data/site";
 
+const featuredCases = caseStudies.slice(0, 3);
+
 useHead({ title: "Martyna Grądzka · Frontend Developer & UX/UI Designer" });
 useSeoMeta({
   description:
@@ -91,10 +93,16 @@ useSeoMeta({
       </header>
 
       <ul role="list" class="work-grid">
-        <li v-for="item in caseStudies" :key="item.slug" v-reveal>
+        <li v-for="item in featuredCases" :key="item.slug" v-reveal>
           <CaseCard :item="item" compact />
         </li>
       </ul>
+
+      <div class="button-row work-more">
+        <BaseButton to="/case-studies" variant="secondary"
+          >All case studies</BaseButton
+        >
+      </div>
     </div>
   </section>
 
@@ -254,6 +262,11 @@ useSeoMeta({
 
 .work-grid > li {
   display: grid;
+}
+
+.work-more {
+  justify-content: center;
+  margin-top: 2.5rem;
 }
 
 /* Tools */

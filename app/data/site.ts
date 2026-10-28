@@ -6,7 +6,7 @@ export const contact = {
 
 export const navigation = [
   { to: '/', label: 'Home' },
-  { to: '/about', label: 'Profile' },
+  { to: '/about', label: 'About' },
   { to: '/case-studies', label: 'Case studies' },
   { to: '/contact', label: 'Contact' },
 ]
@@ -30,11 +30,10 @@ export const competencies = [
 
 export const tools = [
   { name: 'React', icon: 'simple-icons:react' },
+  { name: 'Next.js', icon: 'simple-icons:nextdotjs' },
   { name: 'Vue.js', icon: 'simple-icons:vuedotjs' },
   { name: 'JavaScript', icon: 'simple-icons:javascript' },
   { name: 'TypeScript', icon: 'simple-icons:typescript' },
-  { name: 'HTML', icon: 'simple-icons:html5' },
-  { name: 'CSS', icon: 'simple-icons:css' },
   { name: 'Sass', icon: 'simple-icons:sass' },
   { name: 'Bootstrap', icon: 'simple-icons:bootstrap' },
   { name: 'Node.js', icon: 'simple-icons:nodedotjs' },

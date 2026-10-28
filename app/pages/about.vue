@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: 'Profile' })
+useHead({ title: 'About' })
 useSeoMeta({
   description:
     'Get to know Martyna Grądzka: a multimedia design graduate who fell in love with coding, and who loves travelling and ski jumping.',
@@ -9,7 +9,7 @@ useSeoMeta({
 <template>
   <div class="about container">
     <header class="about__header">
-      <p class="eyebrow">Profile</p>
+      <p class="eyebrow">About</p>
       <h1>Nice to meet you!</h1>
     </header>
 
@@ -23,14 +23,19 @@ useSeoMeta({
       </div>
       <div class="prose">
         <p>
-          Hi! My name is Martyna. My adventure with programming started when I began studying Multimedia Design at
-          UCN in Aalborg. I learned a lot there about programming and UX/UI design. At first I chose it because of
-          design, but after a while I became fascinated with coding!
+          Hi! My name is Martyna and <strong>I have been working as a frontend developer for the last three
+          years</strong>. Most of my time goes into building websites and web applications, and from time to time I
+          also help out with UX/UI design.
         </p>
         <p>
-          During my studies <strong>I also completed a three-month internship as a frontend developer</strong>, which
-          was a fantastic experience. It gave me practical skills and a deeper understanding of React, the main
-          technology I worked with.
+          I like working where design meets code: turning a design into an interface that looks good, works well
+          and is easy to use. Thanks to my design background, I also notice the details that make a product feel
+          right for the people using it.
+        </p>
+        <p>
+          My adventure with programming started when I studied Multimedia Design at UCN in Aalborg. I chose it
+          because of design, but quickly became fascinated with coding. During my studies I also completed a
+          six-month internship as a frontend developer, working mainly with React.
         </p>
       </div>
     </section>
